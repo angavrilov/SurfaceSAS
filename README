@@ -1,0 +1,13 @@
+This mod solves one very simple problem with the stock SAS:
+it always tracks the orientation it tries to keep relative
+to the universe (the stars basically). However, when launching
+and re-entering spaceplanes you are more concerned with the
+attitude relative to the surface. This may also be the case
+when doing long gentle re-entries with DRE and/or FAR.
+
+When active, this plugin constantly updates the orientation
+SAS tries to keep for the current vessel to make it constant
+relative to the surface. This can be controlled via a button
+in the stock App Launcher toolbar, which can be toggled between
+ON, OFF and AUTO (default). In the AUTO mode the plugin works
+only in atmosphere.
